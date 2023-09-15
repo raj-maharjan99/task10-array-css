@@ -1,19 +1,30 @@
 .container {
   height: 40rem;
-  width: 100rem;
-  background-color: rgb(207, 207, 227);
+  width: 50rem;
+  margin-left: 10rem;
+  margin-top: 10rem;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(235, 229, 116, 0.487),
+    rgb(27, 116, 210)
+  );
   display: flex;
-  /* flex-wrap: wrap; */
   flex-direction: column;
-  float: left;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   justify-content: center;
-
-  gap: 3rem;
+  align-items: center;
+  padding-left: 50px;
+  gap: 2rem;
+  color: rgba(23, 14, 152, 0.834);
 }
 .container > div {
   height: 5rem;
-  width: 100rem;
-  background-color: rgb(15, 140, 13);
+  width: 20%;
+  background-color: rgba(22, 178, 19, 0.286);
   text-align: center;
-  font-size: 50px;
+  font-size: 30px;
+  box-shadow: 20px 15px 5px 5px rgba(0, 0, 0, 0.837);
+  border-radius: 2rem;
+  padding-top: 1rem;
 }
